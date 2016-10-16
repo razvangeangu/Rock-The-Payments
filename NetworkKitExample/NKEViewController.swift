@@ -44,11 +44,11 @@ class NKEViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     var stillImageOutput : AVCaptureStillImageOutput?
     var previewLayer : AVCaptureVideoPreviewLayer?
     let capitalOne : CapitalOne =  CapitalOne();
-    var merchantId:String = "57cf75cea73e494d8675ec58"
+    var merchantId:String = "CHANGE_ME"
     var customerCode:String = ""
     var accountCode:String = ""
-    let pusher = Pusher(key: "4da4d89351216a5d1869")
-    let userId = "580265d7360f81f104543eb0"
+    let pusher = Pusher(key: "CHANGE_ME")
+    let userId = "CHANGE_ME"
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -12,8 +12,8 @@ import NetworkKit
 
 class KairosAPI: NSObject {
     
-    let app_id = "0f0140bd"
-    let app_key = "722179b950086faddfbc01da85092e2e"
+    let app_id = "CHANGE_ME"
+    let app_key = "CHANGE_ME"
     
     override init() {
         super.init()
@@ -50,7 +50,7 @@ class KairosAPI: NSObject {
             ],
             params: ["image": imageData,
                      "subject_id": name,
-                     "gallery_name": "sheffieldGallery",
+                     "gallery_name": "CHANGE_ME",
                      "selector": "SETPOSE",
                      "symmetricFill": "true",
                      "multiple_faces": "false"],
@@ -73,7 +73,7 @@ class KairosAPI: NSObject {
                       "Content-Type": "application/json"
             ],
             params: ["image": imageData,
-                     "gallery_name": "sheffieldGallery"],
+                     "gallery_name": "CHANGE_ME"],
             success: { data in
                 var item: RecognizedPerson?
                 let _ = item <-- data
@@ -105,7 +105,7 @@ class KairosAPI: NSObject {
                       "app_key": app_key,
                       "Content-Type": "application/json"
             ],
-            params: ["gallery_name": "sheffieldGallery"],
+            params: ["gallery_name": "CHANGE_ME"],
             success: { data in
                 print(data)
             },
@@ -122,7 +122,7 @@ class KairosAPI: NSObject {
                       "app_key": app_key,
                       "Content-Type": "application/json"
             ],
-            params: ["gallery_name": "sheffieldGallery"],
+            params: ["gallery_name": "CHANGE_ME"],
             success: { data in
                 print(data)
             },
