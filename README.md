@@ -8,5 +8,4 @@ Kairos API, © 2016 Kairos AR, Inc.
 
 ## License
 
-NetworkKit is available under the MIT license. See the LICENSE file for more info.
-MIT ⓒ Alex Telek
+RockThePayments is available under the MIT license.
