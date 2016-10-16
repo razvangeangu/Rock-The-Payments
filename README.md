@@ -3,7 +3,7 @@
 An application to make payments using facial recognition.
 
 ## Acknowledgements
-NetworkKit, MIT ⓒ Alex Telek
+NetworkKit, MIT ⓒ Alex Telek •
 Kairos API, © 2016 Kairos AR, Inc.
 
 ## License
